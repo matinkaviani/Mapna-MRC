@@ -14353,7 +14353,8 @@ ol.commentlist {
 }
 
 .content-bx1 {
-    padding-left: 30px;
+    padding-right: 30px;
+    text-align: right;
 }
 
 @media only screen and (max-width:991px) {
@@ -14579,4 +14580,8 @@ ol.commentlist {
     text-overflow: ellipsis;
     overflow: hidden;
     direction: rtl;
+}
+
+.tp-bullets {
+    left: 200px !important;
 }
