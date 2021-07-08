@@ -3495,7 +3495,7 @@ blockquote {
     }
 
     .header-nav .nav > li .mega-menu > li ul a, .header-nav .nav > li .sub-menu li a {
-        padding: 2px 0 1px 15px;
+        padding: 2px 15px 1px 0;
         display: block;
         font-size: 16px;
         line-height: 30px;
@@ -3503,7 +3503,7 @@ blockquote {
     }
 
         .header-nav .nav > li .mega-menu > li ul a:after, .header-nav .nav > li .sub-menu li a:after {
-            content: "\f105";
+            content: "\f104";
             font-family: FontAwesome;
             width: auto;
             height: auto;
@@ -3512,7 +3512,7 @@ blockquote {
             color: #000;
             font-size: 16px;
             position: absolute;
-            left: 0;
+            right: 0;
             font-weight: 700;
         }
 
@@ -4964,6 +4964,7 @@ blockquote {
 
 .dlab-post-title {
     margin-bottom: 5px;
+    text-align: right;
 }
 
     .dlab-post-title .post-title {
@@ -4979,6 +4980,8 @@ blockquote {
         margin: 0;
         list-style: none;
         text-transform: capitalize;
+        text-align: right;
+        direction: rtl;
     }
 
         .dlab-post-meta ul li {
@@ -5036,6 +5039,7 @@ blockquote {
 
 .dlab-post-text {
     margin-bottom: 15px;
+    text-align: right;
 }
 
     .dlab-post-text p {
@@ -5045,6 +5049,7 @@ blockquote {
         color: #999;
         height: 100px;
         overflow: hidden;
+        direction: rtl;
         text-overflow: ellipsis;
     }
 
@@ -5087,6 +5092,7 @@ blockquote {
 
 .dlab-info > div:last-child, .dlab-info > p:last-child {
     margin-bottom: 0;
+    text-align: right;
 }
 
 @media only screen and (max-width:1200px) {
@@ -10765,6 +10771,7 @@ ul[class*=list-] {
 
     .icon-bx-wraper p:last-child {
         margin: 0;
+        text-align: right;
     }
 
 .icon-content {

@@ -2679,7 +2679,8 @@ ol.commentlist li .meta span {
 
 .sr-iconbox .dlab-tilte {
     font-weight: 600;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    text-align: right;
 }
 
 .sr-iconbox.style2 {
@@ -2688,7 +2689,8 @@ ol.commentlist li .meta span {
     -o-transition: all .8s;
     -ms-transition: all .8s;
     -webkit-transition: all .8s;
-    -moz-transition: all .8s
+    -moz-transition: all .8s;
+    text-align: right;
 }
 
     .sr-iconbox.style2:hover {
@@ -6515,20 +6517,22 @@ ol.commentlist li .meta span {
     font-weight: 700;
     letter-spacing: 1px;
     margin-bottom: 5px;
-    text-align: left;
+    font-family: 'Yekan';
+    text-align: right;
 }
 
 .call-action.style2 {
-    padding: 0
+    padding: 0;
+    text-align: right;
 }
 
     .call-action.style2 h3 {
         font-size: 16px;
         font-weight: 600;
-        font-family: poppins;
+        font-family: 'Yekan';
         line-height: 36px;
         margin-bottom: 5px;
-        text-align: left;
+        text-align: right;
     }
 
     .call-action.style2 i.call-icon {
