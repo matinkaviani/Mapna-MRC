@@ -545,11 +545,13 @@ footer .footer-bottom .fa-heart {
 }
 
 .portfolio p {
-    margin: 0
+    margin: 0;
+    max-height: 55px;
+    overflow: hidden;
 }
 
     .portfolio p small {
-        opacity: .7
+        opacity: .7;
     }
 
 .portfolio .dlab-box:hover .overlay-icon, .portfolio .ow-portfolio:hover .overlay-icon {
