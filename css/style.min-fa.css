@@ -5990,6 +5990,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     margin-bottom: 20px;
     padding-bottom: 15px;
     font-weight: 600;
+    text-align: right;
     line-height: 12px;
 }
 
@@ -5999,7 +6000,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
         content: "";
         display: inline-block;
         height: 3px;
-        left: 0;
+        right: 0;
         margin: 0;
         position: absolute;
         vertical-align: bottom;
@@ -10935,7 +10936,8 @@ ul[class*=list-] {
 
     .dlab-media img, .dlab-post-media img {
         width: 100%;
-        height: auto;
+        height: 193px;
+        object-fit: cover;
     }
 
 .dlab-box-bg {
@@ -13021,7 +13023,7 @@ ol.commentlist {
 .sticky-md-top, .sticky-sm-top, .sticky-top, .sticky-top > .side-bar {
     position: sticky;
     position: -webkit-sticky;
-    top: 100px;
+    top: 50px;
 }
 
 @media only screen and (max-width:991px) {
