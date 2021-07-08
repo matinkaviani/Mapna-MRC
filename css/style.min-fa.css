@@ -5235,7 +5235,7 @@ blockquote {
 
 .blog-md .dlab-post-info {
     border: none;
-    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .blog-md .dlab-post-tags {
@@ -7524,7 +7524,7 @@ ol.comment-list li.comment .comment-respond .comment-form p {
     height: 40px;
     padding: 0;
     border-radius: 40px;
-    line-height: 39px;
+    line-height: 45px;
 }
 
 .site-button.circle-lg {
@@ -14593,4 +14593,7 @@ ol.commentlist {
 
 .tp-bullets {
     left: 200px !important;
+}
+.blog-post img {
+    min-height: 250px;
 }
