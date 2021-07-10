@@ -14684,3 +14684,26 @@ element.style {
     -webkit-box-orient: vertical;
     height: auto;
 }
+.upload-label {
+    height: 44px;
+    width: 170px;
+    line-height: 32px;
+    margin-right: 25px;
+    /* margin-left: 40px; */
+    margin-bottom: 0;
+    padding: 0 23px 0 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.upload-btn {
+    background-color: #d2151e;
+    border: none;
+    color: white;
+}
+.btn:hover {
+    color: #ffffff;
+}
+.bootstrap-select.btn-group .dropdown-toggle .filter-option {
+    text-align: right;
+}
