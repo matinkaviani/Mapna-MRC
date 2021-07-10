@@ -2607,6 +2607,9 @@ blockquote {
         margin: 0 1px 0 0;
         text-align: right;
     }
+    .blog-md .dlab-post-media {
+        width: 120px !important;
+    }
 }
 
 #header-part.fix-map-header {
@@ -4964,7 +4967,7 @@ blockquote {
 }
 
 .dlab-post-title {
-    margin-bottom: 5px;
+    margin-top: 15px;
     text-align: right;
 }
 
@@ -4975,6 +4978,7 @@ blockquote {
 
 .dlab-post-meta {
     margin-bottom: 10px;
+    line-height: initial;
 }
 
     .dlab-post-meta ul {
@@ -12072,6 +12076,8 @@ ol.commentlist {
         color: #fff;
         font-size: 20px;
         border-bottom: 2px solid rgba(255,255,255,.2);
+        text-align: right;
+        font-family: 'Yekan';
     }
 
         .dlab-quik-search .form-control::-moz-placeholder {
@@ -12092,7 +12098,7 @@ ol.commentlist {
 
     .dlab-quik-search span {
         position: absolute;
-        right: 15px;
+        left: 15px;
         top: 50%;
         margin: -15px 0;
         height: 25px;
@@ -14657,7 +14663,24 @@ element.style {
     padding: 10px 20px;
     margin-top: 25px;
 }
+
 .abinner p {
     text-align: justify;
     direction: rtl;
+}
+
+.bg-mapna2 {
+    background-color: #d2151e;
+}
+
+.dlab-post-text p {
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #999;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    height: auto;
 }
