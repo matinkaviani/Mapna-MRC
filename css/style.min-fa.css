@@ -2581,7 +2581,7 @@ blockquote {
 
     .extra-nav .extra-cell {
         display: flex;
-        margin-right: 10px;
+        margin-right: 15px;
         align-items: center;
     }
 
@@ -3002,7 +3002,7 @@ blockquote {
 }
 
 .main-bar {
-    background: #fff;
+    background: #fff !important;
     width: 100%;
     position: relative;
 }
@@ -3988,6 +3988,7 @@ blockquote {
         border: 1px solid rgba(255,255,255,.1);
         border-width: 0 0 0 1px;
         direction: rtl;
+        font-weight: 500;
     }
 
     .header.dark .header-nav .nav > li:last-child > a, .header.header-transparent .header-nav .nav > li:last-child > a {
@@ -4024,11 +4025,11 @@ blockquote {
     }
 
     .header-transparent .header-nav .nav > li > a {
-        color: #fff;
+        color: #ffffff;
     }
 
     .header-transparent .dlab-topbar-left ul li a, .header-transparent .extra-nav .site-button-link, .header-transparent .header-nav .nav > li > a, .header-transparent .navbar-toggler {
-        color: #fff;
+        color: #464646;
     }
 
         .header-transparent .navbar-toggler span {
@@ -4449,7 +4450,7 @@ blockquote {
 .dlab-bnr-inr h1 {
     font-weight: 600;
     font-size: 40px;
-    margin-bottom: 0;
+    margin-bottom: 8px;
     direction: rtl;
 }
 
@@ -4975,6 +4976,8 @@ blockquote {
     .dlab-post-title .post-title {
         margin-top: 15px;
         margin-bottom: 5px;
+        margin-right: 15px;
+        position: relative;
     }
 
 .dlab-post-meta {
@@ -10237,6 +10240,7 @@ ul[class*=list-] {
     .breadcrumb-row ul {
         margin: 0;
         direction: rtl;
+        text-align: right;
     }
 
         .breadcrumb-row ul li {
@@ -14582,7 +14586,7 @@ ol.commentlist {
 }
 
 .bg-mapna {
-    background-color: #696969;
+    background-color: #464646;
 }
 
 .flex-reverse {
@@ -14711,4 +14715,20 @@ element.style {
 
 .bootstrap-select.btn-group .dropdown-toggle .filter-option {
     text-align: right;
+}
+
+.dlab-post-title .post-title:before {
+    content: '';
+    display: block;
+    width: 3px;
+    height: 85%;
+    right: -13px;
+    margin: 0px;
+    top: 15%;
+    position: absolute;
+    background: #d2151e;
+}
+
+.extra-cell a {
+    color: #464646 !important;
 }
