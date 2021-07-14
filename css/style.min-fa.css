@@ -2919,7 +2919,7 @@ blockquote {
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
-    width: 210px;
+    width: 250px;
     height: 68px;
     position: relative;
     z-index: 9;
@@ -2956,7 +2956,7 @@ blockquote {
 .logo-footer img, .logo-header img {
     height: auto;
     width: 100%;
-    max-width: 270px;
+    max-width: 300px;
     backface-visibility: hidden;
 }
 
@@ -4033,7 +4033,7 @@ blockquote {
     }
 
         .header-transparent .navbar-toggler span {
-            background-color: #fff;
+            background-color: #696969;
         }
 
     .header-transparent .is-fixed .main-bar {
