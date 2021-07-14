@@ -19,7 +19,6 @@ body {
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
 }
-
 a {
     color: #efbb20;
     outline: 0 none;
@@ -10310,7 +10309,7 @@ ul[class*=list-] {
     }
 
     .overlay-black-middle:after {
-        opacity: .5;
+        opacity: .2;
     }
 
     .overlay-black-dark:after {
@@ -14731,4 +14730,7 @@ element.style {
 
 .extra-cell a {
     color: #464646 !important;
+}
+.upload-label:hover {
+    cursor: pointer;
 }
