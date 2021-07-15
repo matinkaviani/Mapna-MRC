@@ -14734,3 +14734,9 @@ element.style {
 .upload-label:hover {
     cursor: pointer;
 }
+.blog-carousel .post-title:before {
+    display: none !important;
+}
+.blog-carousel .post-title {
+    margin-right: 0;
+}
