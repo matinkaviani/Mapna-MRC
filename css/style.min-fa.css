@@ -2607,6 +2607,11 @@ blockquote {
         margin: 0 1px 0 0;
         text-align: right;
     }
+    .sendbtnform {
+        margin-left: auto;
+        margin-top: 15px;
+        margin-right: auto !important;
+    }
 
     .blog-md .dlab-post-media {
         width: 120px !important;
