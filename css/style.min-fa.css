@@ -19,6 +19,7 @@ body {
     -webkit-font-smoothing: antialiased;
     font-smoothing: antialiased;
 }
+
 a {
     color: #efbb20;
     outline: 0 none;
@@ -2610,6 +2611,10 @@ blockquote {
     .blog-md .dlab-post-media {
         width: 120px !important;
     }
+
+    .mapna-news .blog-md .dlab-post-media {
+        width: 100% !important;
+    }
 }
 
 #header-part.fix-map-header {
@@ -4032,7 +4037,7 @@ blockquote {
     }
 
         .header-transparent .navbar-toggler span {
-            background-color: #696969;
+            background-color: #ffff;
         }
 
     .header-transparent .is-fixed .main-bar {
@@ -10249,6 +10254,7 @@ ul[class*=list-] {
             display: inline-block;
             font-size: 16px;
             font-weight: 500;
+            vertical-align: top;
         }
 
             .breadcrumb-row ul li:after {
@@ -14731,12 +14737,19 @@ element.style {
 .extra-cell a {
     color: #464646 !important;
 }
+
 .upload-label:hover {
     cursor: pointer;
 }
+
 .blog-carousel .post-title:before {
     display: none !important;
 }
+
 .blog-carousel .post-title {
     margin-right: 0;
+}
+.site-button.aparat {
+    background-color: #df0f50;
+    line-height: 40px;
 }

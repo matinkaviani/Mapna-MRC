@@ -40,7 +40,12 @@
     <link rel="stylesheet" type="text/css" href="plugins/revolution/revolution/css/revolution.min.css">
     <style>
         .header-transparent .dlab-topbar-left ul li a, .header-transparent .extra-nav .site-button-link, .header-transparent .header-nav .nav > li > a, .header-transparent .navbar-toggler {
-            color: #fff !important;
+            color: #fff;
+        }
+        @media only screen and (max-width: 991px) {
+            .header-nav .nav > li > a {
+                color: #464646 !important;
+            }
         }
     </style>
 </head>
