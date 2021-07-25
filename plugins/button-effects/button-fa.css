@@ -665,8 +665,8 @@
 		-moz-transition: all 0.8s;
 		-o-transition: all 0.8s;
 		transition: all 0.8s;
-		-webkit-transform: translate(-13%,-190%) rotate(-30deg);
-		transform: translate(-13%,-190%) rotate(-30deg);
+		-webkit-transform: translate(13%,-190%) rotate(-30deg);
+		transform: translate(13%,-190%) rotate(30deg);
 		-webkit-transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 		transition-timing-function: cubic-bezier(0.75, 0, 0.125, 1);
 	}
