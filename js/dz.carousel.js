@@ -513,10 +513,10 @@ jQuery(document).ready(function() {
 			},			
 			
 			991:{
-				items:2
+				items:4
 			},
 			1000:{
-				items:3
+				items:6
 			}
 		}
 	})
